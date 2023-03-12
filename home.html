@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamoventure-Ultimate gaming experience</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="games_style.css">
+
+</head>
+<body>
+    <!-- Navigation Tab -->
+    <div class="main-nav">
+        <div class="logo">
+            <h1>Gamoventure</h1>
+            <p>The Ultimate Gaming Experience</p>
+        </div>
+        <i class="fa fa-bars" id="menu-open" aria-hidden="true"></i>        
+        <div class="nav" id="navigation">
+            <i class="fa fa-times-circle-o" id="menu-close" aria-hidden="true"></i>
+            <ul>
+                <li><a href="">Express Pass</a></li>
+                <li class="drop-downs"><a href="">Games</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                </li>
+                <li class="drop-downs"><a href="">Devices</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                </li>
+                <li class="drop-downs"><a href="">Support</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                </li>
+                <li class="drop-downs"><a href="">Community</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                </li>
+                <li class="drop-downs"><i class="fa-solid fa-user"></i><a href="">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Express Pass Tag -->
+    <section class="express-pass">
+        <div class="info">
+            <img src="l.png" alt="">
+            <h1>Gamo Express Pass</h1>
+            <p>
+                Gamoventure Express Pass is a monthly and annual subscription which includes hundreds of indie games and and exclusive AAA titles to choose from.
+            </p>
+            <p>
+                Subscription continues automatically at the monthly or annual price unless cancelled through your Gamoventure Account.
+            </p>
+            <a href="style.css" target="_blank">Click to know more</a>
+        </div>
+    </section>
+
+    <!-- Indie Games -->
+    <section class="outer_container">
+        <div class="indie_games">
+            <div class="info_header">
+                <p>Experience thousands of indie games only available on Gamoventure</p>
+            </div>
+
+            <div class="games_slideshow">
+                <div id="carousel">
+                    <div class="slideImg hideLeft">
+                        <img src="indie/adore.png">
+                    </div>
+                    <div class="slideImg prevLeftSecond">
+                        <img src="indie/baston.png">
+                    </div>
+                    <div class="slideImg prev">
+                        <img src="indie/celeste.png">
+                    </div>
+                    <div class="slideImg selected">
+                        <img src="indie/fez.png">
+                    </div>
+                    <div class="slideImg next">
+                        <img src="indie/thefarshore.jpg">
+                    </div>
+                    <div class="slideImg nextRightSecond">
+                        <img src="indie/drifter.png">
+                    </div>
+                    <div class="slideImg hideRight">
+                        <img src="indie/thewitchveil.jpg">
+                    </div>
+                </div>
+                <div class="positionBtn">
+                    <button id="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                    <button id="next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                </div>        
+            </div>
+
+            <div class="info_footer">
+                <p>Search the whole catalogue</p>
+                <a href="#">Games Store</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exclusive Games -->
+    <div class="exclusive_games">
+        <div class="exclusive_games_info">
+            <p>Explore and play hundreds of exclusive AAA games available with </p>
+            <div class="logo_image">
+                <img src="l.png" alt="">
+            </div>
+            <a href="">Explore Now</a>
+        </div>
+    </div>
+
+    <!-- Ending section  -->
+    <div class="footer">
+        <div class="logo">
+            <img src="l.png" alt="">
+            <h2>Gamoventure</h2>
+        </div>
+        <div class="products">
+            <h2>Products</h2>
+            <p>Games</p>
+            <p>Consoles</p>
+            <p>Controllers</p>
+            <p>Accessories</p>
+        </div>
+        <div class="store">
+            <h2>Store</h2>
+            <p>500 Terry Francois Street <br>
+                San Francisco, CA 94158</p>
+            <p>Mon - Fri: 9am - 9pm</p>
+            <p>gamoventure@gmail.com</p>
+            <p>123-456-7890</p>
+        </div>
+        <div class="policy">
+            <h2>Policy</h2>
+            <p>Terms & Conditions</p>
+            <p>Shipping Policy</p>
+            <p>Refund Policy</p>
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+            <p>FAQ</p>
+        </div>
+    </div>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/505c7d8f7e.js" crossorigin="anonymous"></script>
+
+    <!-- Games script -->
+    <script src="games.js"></script>
+
+    <!-- Navigation script -->
+    <script src="navigation.js"></script>
+</body>
+</html>
